@@ -12,7 +12,7 @@ To start a Prometheus container:
 
     $ docker run -it rwanyoike/rt-n56u-prometheus
 
-# Manual build
+## Manual build
 
 First, build the [docker-rt-n56u](https://github.com/rwanyoike/docker-rt-n56u) Docker image.
 
