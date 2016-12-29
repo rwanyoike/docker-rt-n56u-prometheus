@@ -25,12 +25,10 @@ RUN apt-get update \
 
 WORKDIR /opt
 
-# Download Prometheus
 RUN wget -O update.tar ftp://guest2:gu@freize.net/4GB/scripts/update.tar \
         && tar -xvf update.tar \
         && rm -f update.tar
 
-# start.sh workaround
 RUN mkdir logs \
         && echo "All IS DONE!" > logs/build_toolchain.log
 
